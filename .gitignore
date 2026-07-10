@@ -1,0 +1,14 @@
+# Docker
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local data volumes (if ever uncommented/bind-mounted)
+pgdata/
+*-data/
+
+# Editor files
+.vscode/
+.idea/
