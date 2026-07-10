@@ -8,6 +8,8 @@ via Patroni's REST API.
 
 ## Architecture
 
+![Patroni HA cluster architecture](diagrams/patroni-ha-architecture.svg)
+
 - **etcd** — single-node distributed key-value store acting as the DCS that
   Patroni uses for leader election and cluster state.
 - **patroni1 / patroni2** — two PostgreSQL 15 nodes managed by Patroni
